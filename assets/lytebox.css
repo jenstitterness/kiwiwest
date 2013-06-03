@@ -37,26 +37,26 @@
 
 #lbImageContainer { padding: 10px; }
 #lbLoading {
-	position: absolute; top: 45%; left: 0%; height: 32px; width: 100%; text-align: center; line-height: 0; background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/loading.gif) center no-repeat;
+	position: absolute; top: 45%; left: 0%; height: 32px; width: 100%; text-align: center; line-height: 0; background: url(lytebox/loading.gif) center no-repeat;
 }
 
 #lbHoverNav { position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
 #lbImageContainer>#lbHoverNav { left: 0; }
 #lbHoverNav a { outline: none; }
 
-#lbPrev { width: 49%; height: 100%; background: transparent url(/web/20100513031509/http://kiwiwest.com/images/lytebox/blank.gif) no-repeat; display: block; left: 0; float: left; }
-	#lbPrev.grey:hover, #lbPrev.grey:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/prev_grey.gif) left 15% no-repeat; }
-	#lbPrev.red:hover, #lbPrev.red:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/prev_red.gif) left 15% no-repeat; }
-	#lbPrev.green:hover, #lbPrev.green:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/prev_green.gif) left 15% no-repeat; }
-	#lbPrev.blue:hover, #lbPrev.blue:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/prev_blue.gif) left 15% no-repeat; }
-	#lbPrev.gold:hover, #lbPrev.gold:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/prev_gold.gif) left 15% no-repeat; }
+#lbPrev { width: 49%; height: 100%; background: transparent url("lytebox/blank.gif") no-repeat; display: block; left: 0; float: left; }
+	#lbPrev.grey:hover, #lbPrev.grey:visited:hover { background: url("lytebox/prev_grey.gif") left 15% no-repeat; }
+	#lbPrev.red:hover, #lbPrev.red:visited:hover { background: url("lytebox/prev_red.gif") left 15% no-repeat; }
+	#lbPrev.green:hover, #lbPrev.green:visited:hover { background: url("lytebox/prev_green.gif") left 15% no-repeat; }
+	#lbPrev.blue:hover, #lbPrev.blue:visited:hover { background: url("lytebox/prev_blue.gif") left 15% no-repeat; }
+	#lbPrev.gold:hover, #lbPrev.gold:visited:hover { background: url("lytebox/prev_gold.gif") left 15% no-repeat; }
 	
-#lbNext { width: 49%; height: 100%; background: transparent url(/web/20100513031509/http://kiwiwest.com/images/lytebox/blank.gif) no-repeat; display: block; right: 0; float: right; }
-	#lbNext.grey:hover, #lbNext.grey:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/next_grey.gif) right 15% no-repeat; }
-	#lbNext.red:hover, #lbNext.red:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/next_red.gif) right 15% no-repeat; }
-	#lbNext.green:hover, #lbNext.green:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/next_green.gif) right 15% no-repeat; }
-	#lbNext.blue:hover, #lbNext.blue:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/next_blue.gif) right 15% no-repeat; }
-	#lbNext.gold:hover, #lbNext.gold:visited:hover { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/next_gold.gif) right 15% no-repeat; }
+#lbNext { width: 49%; height: 100%; background: transparent url("lytebox/blank.gif") no-repeat; display: block; right: 0; float: right; }
+	#lbNext.grey:hover, #lbNext.grey:visited:hover { background: url("lytebox/next_grey.gif") right 15% no-repeat; }
+	#lbNext.red:hover, #lbNext.red:visited:hover { background: url("lytebox/next_red.gif") right 15% no-repeat; }
+	#lbNext.green:hover, #lbNext.green:visited:hover { background: url("lytebox/next_green.gif") right 15% no-repeat; }
+	#lbNext.blue:hover, #lbNext.blue:visited:hover { background: url("lytebox/next_blue.gif") right 15% no-repeat; }
+	#lbNext.gold:hover, #lbNext.gold:visited:hover { background: url("lytebox/next_gold.gif") right 15% no-repeat; }
 
 #lbPrev2, #lbNext2 { text-decoration: none; font-weight: bold; }
 	#lbPrev2.grey, #lbNext2.grey, #lbSpacer.grey { color: #333333; }
@@ -85,22 +85,22 @@
 #lbNavDisplay { float: left; display: block; padding-bottom: 1.0em; }
 
 #lbClose { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
-	#lbClose.grey { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/close_grey.png) no-repeat; }
-	#lbClose.red { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/close_red.png) no-repeat; }
-	#lbClose.green { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/close_green.png) no-repeat; }
-	#lbClose.blue { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/close_blue.png) no-repeat; }
-	#lbClose.gold { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/close_gold.png) no-repeat; }
+	#lbClose.grey { background: url("lytebox/close_grey.png") no-repeat; }
+	#lbClose.red { background: url("lytebox/close_red.png") no-repeat; }
+	#lbClose.green { background: url("lytebox/close_green.png") no-repeat; }
+	#lbClose.blue { background: url("lytebox/close_blue.png") no-repeat; }
+	#lbClose.gold { background: url("lytebox/close_gold.png") no-repeat; }
 
 #lbPlay { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
-	#lbPlay.grey { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/play_grey.png) no-repeat; }
-	#lbPlay.red { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/play_red.png) no-repeat; }
-	#lbPlay.green { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/play_green.png) no-repeat; }
-	#lbPlay.blue { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/play_blue.png) no-repeat; }
-	#lbPlay.gold { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/play_gold.png) no-repeat; }
+	#lbPlay.grey { background: url("lytebox/play_grey.png") no-repeat; }
+	#lbPlay.red { background: url("lytebox/play_red.png") no-repeat; }
+	#lbPlay.green { background: url("lytebox/play_green.png") no-repeat; }
+	#lbPlay.blue { background: url("lytebox/play_blue.png") no-repeat; }
+	#lbPlay.gold { background: url("lytebox/play_gold.png") no-repeat; }
 	
 #lbPause { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
-	#lbPause.grey { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/pause_grey.png) no-repeat; }
-	#lbPause.red { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/pause_red.png) no-repeat; }
-	#lbPause.green { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/pause_green.png) no-repeat; }
-	#lbPause.blue { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/pause_blue.png) no-repeat; }
-	#lbPause.gold { background: url(/web/20100513031509/http://kiwiwest.com/images/lytebox/pause_gold.png) no-repeat; }
+	#lbPause.grey { background: url("lytebox/pause_grey.png") no-repeat; }
+	#lbPause.red { background: url("lytebox/pause_red.png") no-repeat; }
+	#lbPause.green { background: url("lytebox/pause_green.png") no-repeat; }
+	#lbPause.blue { background: url("lytebox/pause_blue.png") no-repeat; }
+	#lbPause.gold { background: url("lytebox/pause_gold.png") no-repeat; }
