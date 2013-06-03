@@ -1,0 +1,95 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 3:15:00 May 13, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 0:07:14 Jun 3, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+html {
+	margin: 0; padding: 0;
+	font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
+}
+
+body {
+	background-color: #FFF;
+}
+
+h1 {
+	font-size: 20px;
+	color: #D3993F;
+}
+
+p {
+	letter-spacing: 0em;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 13px;
+}
+.clear {
+	clear: both;
+}
+
+.logo {margin-right: 10px;}
+
+#container {
+	padding: 0px;
+	margin-right: auto; margin-left: auto; 
+	width: 720px;
+	}
+	
+#header {
+margin: 0; padding: 0;
+width: 720px;
+}
+
+#content {
+	padding: 0px;
+	margin: 0px;
+	width: 460px;
+	float: right;
+	position: relative;
+}
+
+#sideNav {
+	margin: 0px;
+	padding: 5px;
+	background-color: #B8CC6E;
+	width: 240px;
+	position: relative;
+}
+
+#footer{
+	text-align: center;
+	font-size: 10px;
+}
+
+.dict{
+	padding: 5px;
+	background-color: #678AC2;
+	color: white;
+}
+
+h2{
+	color: #4B6000;
+	font-size: 16px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+a:link, a:visited, a:active { 
+	font-weight: bold; 
+	color: #004460; 
+	text-decoration: underline;
+	}
+	
+a:hover { color: #a3643c; 
+	text-decoration: none;
+	}
